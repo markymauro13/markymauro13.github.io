@@ -2,4 +2,4 @@
 This repo is for my personal website. This was also made to help me with learning how to use github pages and web development skills.
 Here is a screenshot:
 
-<img src = "screenshot_of_mywebsite.png" height="900" width="1010"> 
+<img src = "screenshot_of_mywebsite.png" height="850" width="900"> 
