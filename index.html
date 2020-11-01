@@ -4,64 +4,156 @@
 
 <head>
 
-  <meta name="viewport" content="width=device-width">
-
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="main.css">
+  <!--Font Awesome CDN-->
+  <script src="https://kit.fontawesome.com/3263ba6030.js" crossorigin="anonymous"></script>
 
-
+  <link rel="icon" href="/img/IMG_3542.JPG">
   <title>Mark Mauro</title>
-
-  <link rel="icon" href=icon.png>
 
 </head>
 
 <body>
 
-  <h1> <b> Mark Mauro </b> code </h1>
+  <!--ADD NAVBAR FROM BOOTSTRAP DOCUMENTATION-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand display-1" href="index.html">
+      <img src="/img/IMG_3542.JPG" alt="me" class="me-pic" style="width: 40px; height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.haeger.com/images/coming-soon.jpg">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/markymauro13">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/files/Mark Mauro Resume.pdf">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <p> <big> Creator, Developer, and Student </big> </p>
+  <div class="section-1 container-fluid p-5">
+    <h1 class="intro pb-2">Hello I'm Mark!</h1>
+    <p class="bio pb-2">A sophomore studying Computer Science at Montclair State University. Currently
+      seeking internships for Summer 2021.</p>
+    <span>
+      <p class="bio pb-2">📚 🖥️ ✌️</p>
+    </span>
+    <span class="bio pb-2">
+      <button type="button" class="btn btn-light"> <a href="mailto:markymauro@gmail.com">Get in touch</a> </button>
+      <button type="button" class="btn btn-light"> <a href="/files/Mark Mauro Resume.pdf">Resume</a> </button>
+    </span>
 
-  <h2 class="intro-1">
-    Hello! I’m <b> Mark Mauro </b> and I’m currently a <br> CS Student @ Montclair State University.</br> </h2>
-  </h2>
+  </div>
+
+  <div class="section-2 container-fluid p-5 ">
+    <h1 class="title pb-4">Experiences</h1>
+    <ul class="content">
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="/img/hawkhack.png" alt="hawkhack" style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>HawkHack (2019-Present)</h3>
+          <p>Web Developer and Marketing Director.</p>
+        </div>
+      </li>
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="/img/CC_Club_2020_1.jpg" alt="msucc" style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>Computer Club President (2019-Present)</h3>
+          <p>President of the Computer Club @ MSU.</p>
+        </div>
+      </li>
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="/img/codepath.png" alt="codepath" style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>Codepath (2020-2020)</h3>
+          <p>Android Development Student.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section-3 container-fluid p-5">
+    <h1 class="title pb-4">Projects</h1>
+    <ul class="content">
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="/img/twitter.png" alt="twitter-logo" style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>Twitter-Client</h3>
+          <p>Twitter App clone for Android devices.</p>
+        </div>
+      </li>
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="https://www.flaticon.com/svg/static/icons/svg/3081/3081162.svg" alt="boba"
+            style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>BuyMeBoba</h3>
+          <p>Created a tool for anybody who wants to receive payments from their website.</p>
+        </div>
+      </li>
+      <li class="content-item">
+        <div class="content-icon">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Montclair.jpg" alt="redhawk"
+            style="width: 50px; height: 50px;">
+        </div>
+        <div class="content-text">
+          <h3>MSUCC Website</h3>
+          <p>Actively developing MSUCC's website.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
 
 
-  <img class="pic-of-me" src="pic-of-me.png" alt="portrait" width="800" height="500">
-
-  <p1 class="about_me">
-    <center> At the age of thirteen I started programming and have taught myself a thing or two since then.<br>Topics
-      that interest me are web development,</br> natural language processing, and cloud computing. </center>
-  </p1>
-
-
-  <p2 class="intro_contact">
-    info:
-    <a href="Mark Mauro Resume 2020.pdf">resume,</a>
-    <a href="https://www.github.com/markymauro13">github,</a>
-    <a href="https://www.linkedin.com/in/mark-mauro-487882b6/">linkedin,</a>
-    <a href="/projects.html">projects.</a>
-
-  </p2>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-  </script>
 </body>
+
+
+<div class="container-fluid mt-2 text-center mx-auto pt-3">
+  <div class="footer text-center">
+    <div class="ml-auto">
+      <ul class="footer-ul">
+        <li class="content mr-4">
+          <p>Made with ❤️ by Me</p>
+        </li>
+        <li class="content pr-2 "><a href="mailto:markymauro@gmail.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+        </li>
+        <li class="content pr-2"><a href="https://github.com/markymauro13"><i
+              class="fab fa-twitter-square fa-2x"></i></a>
+        </li>
+        <li class="content pr-2"><a href="https://github.com/markymauro13"><i
+              class="fab fa-github-square fa-2x"></i></a>
+        </li>
+        <li class="content pr-2"><a href="https://www.linkedin.com/in/markalexandermauro/"><i
+              class="fab fa-linkedin fa-2x"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

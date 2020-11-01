@@ -1,78 +1,99 @@
-#page-wrap {
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
+/*REDESIGN*/
+
+body{
+font-family: 'Rubik Regular';
+margin:0; 
 }
 
-body {
-  background-color: rgb(146, 205, 235);
-  text-align: center;
+a{
+  color: black;
+}
+a:hover{
+  transition: 0.2s;
+  color: salmon;
+  text-decoration: none;
+}
+
+.title{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+.nav-item{
+font-size: larger;
+}
+
+.section-1{
+  background-color: rgb(117, 117, 231);
+  color: white;
+}
+
+.intro{
+  font-size: 4.5rem;
+}
+
+.bio{
+font-size: 3rem;
+font-weight: 400;
+}
+
+.section-2{
+  background-color: rgb(235, 114, 114);
+  color: white;
+}
+
+.section-3{
+ background-color: rgb(115, 212, 115);
+  color: white;
+}
+
+.content{
+  padding:0;
+  list-style-type: none;
+}
+
+.content-icon{
   float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;
+  margin-right: 20px;
+  width: 60px;
 }
 
-.pic-of-me {
-  position: relative;
-  margin: auto -55px;
-  width: 425px;
-  height: 425px;
+
+.container-fluid{
 }
 
-h2 {
-  font-size: 32px;
-  font-weight: normal;
+.footer{
+
 }
 
-p1 {
-  position: relative;
-  font-size: 24px;
-  top: 15px;
+.me-pic {
+border: 2px solid rgb(255, 255, 255);
+border-radius: 50%;
 }
 
-p2 {
-  display: inline-block;
-
-  font-size: 20px;
-  position: relative;
-  top: 15px;
-  /*increase for scroll bar*/
-  padding-bottom: 25px;
+.footer-ul{
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
 }
 
-/* SCROLL BAR CSS START */
+.fa-envelope-square{color: black;}
+.fa-twitter-square{color: black;}
+.fa-github-square{color: black}
+.fa-linkedin{color: black;}
 
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 480px) {
+  .section-1 {
+  }
+  .intro{
+    font-size: 2rem;
+  }
+  .bio{
+    font-size: 1.5rem;
+  }
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 10 10 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #2f3233;
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #2f3233;
-}
-
-/* SCROLL BAR CSS END*/
-
-.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-}
-
-.pro {
-  background-color: rgb(255, 255, 255);
-}
