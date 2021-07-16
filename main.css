@@ -1,78 +1,140 @@
-#page-wrap {
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
-}
+/*REDESIGN*/
 
-body {
-  background-color: rgb(146, 205, 235);
-  text-align: center;
-  float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;
-}
-
-.pic-of-me {
-  position: relative;
-  margin: auto -55px;
-  width: 425px;
-  height: 425px;
-}
-
-h2 {
-  font-size: 32px;
+@font-face {
+  font-family: 'Rubik Regular';
+  font-style: normal;
   font-weight: normal;
+  src: local('Rubik Regular'), url('Rubik-Regular.tff') format('woff');
+  }  
+
+
+body{
+  font-family: 'Rubik', sans-serif;
+  margin:0; 
 }
 
-p1 {
-  position: relative;
-  font-size: 24px;
-  top: 15px;
+a{
+  color: black;
+}
+a:hover{
+  transition: 0.2s;
+  color: salmon;
+  text-decoration: none;
 }
 
-p2 {
-  display: inline-block;
-
-  font-size: 20px;
-  position: relative;
-  top: 15px;
-  /*increase for scroll bar*/
-  padding-bottom: 25px;
+.title{
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-/* SCROLL BAR CSS START */
-
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
+/*CUSTOM NAVBAR*/
+.navbar-custom {
+    background-color: rgb(255, 255, 255);
+}
+.navbar-text {
+  color: black;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 10 10 5px grey;
-  border-radius: 10px;
+/* change the brand and text color */
+.navbar-custom .navbar-text {
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+/* change the link color and padding  */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  padding: .75rem 1rem;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #2f3233;
-  border-radius: 10px;
+/* change the color and background color of active links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+  background-color: rgb(117, 117, 231);
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #2f3233;
+
+.nav-item{
+font-size: larger;
 }
 
-/* SCROLL BAR CSS END*/
-
-.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
+.section-1{
+  background-color: rgb(117, 117, 231);
+  color: white;
 }
 
-.pro {
-  background-color: rgb(255, 255, 255);
+.intro{
+  font-size: 4.5rem;
 }
+
+.bio{
+font-size: 3rem;
+font-weight: 400;
+}
+
+.section-2{
+  background-color: rgb(235, 114, 114);
+  color: white;
+}
+
+.section-3{
+ background-color: rgb(115, 212, 115);
+ /*deprecated bg: rgb(115, 212, 115)*/
+  color: white;
+}
+
+.content{
+  padding:0;
+  list-style-type: none;
+}
+
+.content-icon{
+  float: left;
+  margin-right: 20px;
+  width: 60px;
+}
+
+
+.container-fluid{
+
+}
+
+.footer{
+
+}
+
+.me-pic {
+border: 2px solid rgb(255, 255, 255);
+border-radius: 50%;
+}
+
+.footer-ul{
+  list-style-type: none;
+  display: flex;
+  padding: 5px;
+}
+
+.followMe{
+  font-size: 1.2rem;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 255, 255);
+}
+
+.fa-envelope-square{color: rgb(209, 101, 38);}
+.fa-twitter-square{color: #1DA1F2;}
+.fa-github-square{color: black}
+.fa-linkedin{color: #0e76a8;}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 480px) {
+  .section-1 {
+  }
+  .intro{
+    font-size: 2rem;
+  }
+  .bio{
+    font-size: 1.5rem;
+  }
+}
+
