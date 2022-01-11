@@ -14,11 +14,11 @@ body{
 }
 
 a{
-  color: black;
+  color: #3F3351;
 }
 a:hover{
   transition: 0.2s;
-  color: salmon;
+  color: #1F1D36;
   text-decoration: none;
 }
 
@@ -29,28 +29,21 @@ a:hover{
 
 /*CUSTOM NAVBAR*/
 .navbar-custom {
-    background-color: rgb(255, 255, 255);
-}
-.navbar-text {
-  color: black;
+    background-color: #3F3351;
 }
 
-/* change the brand and text color */
-.navbar-custom .navbar-text {
-    color: rgba(0, 0, 0, 0.8);
-    
-}
 /* change the link color and padding  */
 .navbar-custom .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
   padding: .75rem 1rem;
+  border-radius: 12px;
 }
 
 /* change the color and background color of active links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
   color: #ffffff;
-  background-color: rgb(117, 117, 231);
+  background-color: #1F1D36;
 }
 
 
@@ -59,8 +52,9 @@ font-size: larger;
 }
 
 .section-1{
-  background-color: rgb(117, 117, 231);
+  background-color: #1F1D36;
   color: white;
+  text-align: center;
 }
 
 .intro{
@@ -73,14 +67,15 @@ font-weight: 400;
 }
 
 .section-2{
-  background-color: rgb(235, 114, 114);
+  background-color: #3F3351;
   color: white;
+  /* text-align: center; */
 }
 
 .section-3{
- background-color: rgb(115, 212, 115);
- /*deprecated bg: rgb(115, 212, 115)*/
+ background-color: #1F1D36;
   color: white;
+  /* text-align: center; */
 }
 
 .content{
@@ -91,33 +86,30 @@ font-weight: 400;
 .content-icon{
   float: left;
   margin-right: 20px;
-  width: 60px;
-}
-
-
-.container-fluid{
-
+  width: 60px;;
 }
 
 .footer{
-
-}
-
-.me-pic {
-border: 2px solid rgb(255, 255, 255);
-border-radius: 50%;
+  background-color: #3F3351;
+  border-style: solid;
 }
 
 .footer-ul{
-  list-style-type: none;
   display: flex;
-  padding: 5px;
+  padding: 5px;  
+  color: white;
 }
 
 .followMe{
   font-size: 1.2rem;
   text-decoration-line: underline;
   text-decoration-color: rgb(255, 255, 255);
+  padding-right: 1%;
+}
+
+.me-pic {
+border: 2px solid rgb(255, 255, 255);
+border-radius: 50%;
 }
 
 .fa-envelope-square{color: rgb(209, 101, 38);}
